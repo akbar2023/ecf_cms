@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "messages",
+  "info": {
+    "name": "Messages",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "body": {
+      "type": "text",
+      "maxLength": 1000,
+      "minLength": 1,
+      "required": true
+    },
+    "user": {
+      "plugin": "admin",
+      "model": "user"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "subject": {
+      "model": "subjects",
+      "via": "messages"
+    }
+  }
+}

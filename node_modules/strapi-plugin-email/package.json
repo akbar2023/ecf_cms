@@ -1,0 +1,74 @@
+{
+  "_from": "strapi-plugin-email@3.4.4",
+  "_id": "strapi-plugin-email@3.4.4",
+  "_inBundle": false,
+  "_integrity": "sha512-q88y5awAnUDaTZpEiEohY3N5u+/p2OyZHfKOnCr2MwNDEcnATMGzGczEN+pllUq2GB6s6Hn8y9ov2Ch2w7HD+Q==",
+  "_location": "/strapi-plugin-email",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "strapi-plugin-email@3.4.4",
+    "name": "strapi-plugin-email",
+    "escapedName": "strapi-plugin-email",
+    "rawSpec": "3.4.4",
+    "saveSpec": null,
+    "fetchSpec": "3.4.4"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/strapi-plugin-email/-/strapi-plugin-email-3.4.4.tgz",
+  "_shasum": "87fb1adc8d41e0303c172d77c4114ede307e29c8",
+  "_spec": "strapi-plugin-email@3.4.4",
+  "_where": "C:\\Users\\khan\\Documents\\ecf_strapi_akbar",
+  "author": {
+    "name": "Strapi team",
+    "email": "hi@strapi.io",
+    "url": "http://strapi.io"
+  },
+  "bugs": {
+    "url": "https://github.com/strapi/strapi/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "lodash": "4.17.20",
+    "strapi-provider-email-sendmail": "3.4.4",
+    "strapi-utils": "3.4.4"
+  },
+  "deprecated": false,
+  "description": "Easily configure your Strapi application to send emails.",
+  "devDependencies": {
+    "rimraf": "3.0.2",
+    "strapi-helper-plugin": "3.4.4"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "gitHead": "542786f263688553cddc2e6144cc76da3497bb93",
+  "homepage": "https://github.com/strapi/strapi#readme",
+  "license": "SEE LICENSE IN LICENSE",
+  "maintainers": [
+    {
+      "name": "Strapi team",
+      "email": "hi@strapi.io",
+      "url": "http://strapi.io"
+    }
+  ],
+  "name": "strapi-plugin-email",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/strapi/strapi.git"
+  },
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "strapi": {
+    "name": "Email",
+    "icon": "paper-plane",
+    "description": "email.plugin.description",
+    "required": true
+  },
+  "version": "3.4.4"
+}
