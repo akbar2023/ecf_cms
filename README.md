@@ -8,6 +8,8 @@ https://ecfcms270883709.wordpress.com/
 
 A quick description of your strapi application
 
+# Database backup file : 
+https://github.com/akbar2023/ecf_cms/blob/main/cef_strapi_backup.sql
 
 # User login :
 
